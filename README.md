@@ -1,7 +1,7 @@
 <!-- ===================== BANNER ===================== -->
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/LOAD-13/LOAD-13/main/assets/header.svg" width="100%" alt="Joaquín Loa Denegri — Software Engineer"/>
+<img src="https://raw.githubusercontent.com/LOAD-13/LOAD-13/main/assets/header.svg" width="100%" alt="Joaquin Loa Denegri — Software Engineer"/>
 
 <br/><br/>
 
