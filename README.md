@@ -49,7 +49,10 @@ Diseño e implemento **soluciones tecnológicas eficientes, seguras y escalables
 <tr>
 <td width="33%" valign="top" align="center">
 
-<img src="https://raw.githubusercontent.com/LOAD-13/LOAD-13/main/assets/icon-api.svg" width="52" height="52" alt=""/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/LOAD-13/LOAD-13/main/assets/icon-api-dark.svg"/>
+  <img src="https://raw.githubusercontent.com/LOAD-13/LOAD-13/main/assets/icon-api-light.svg" width="56" height="56" alt=""/>
+</picture>
 
 ### APIs bancarias
 
@@ -58,7 +61,10 @@ Desarrollo de **APIs REST para procesos bancarios**, con foco en integridad tran
 </td>
 <td width="33%" valign="top" align="center">
 
-<img src="https://raw.githubusercontent.com/LOAD-13/LOAD-13/main/assets/icon-enterprise.svg" width="52" height="52" alt=""/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/LOAD-13/LOAD-13/main/assets/icon-enterprise-dark.svg"/>
+  <img src="https://raw.githubusercontent.com/LOAD-13/LOAD-13/main/assets/icon-enterprise-light.svg" width="56" height="56" alt=""/>
+</picture>
 
 ### Soluciones empresariales
 
@@ -67,7 +73,10 @@ Diseño y construcción de **soluciones a medida para distintas empresas**, desd
 </td>
 <td width="33%" valign="top" align="center">
 
-<img src="https://raw.githubusercontent.com/LOAD-13/LOAD-13/main/assets/icon-migration.svg" width="52" height="52" alt=""/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/LOAD-13/LOAD-13/main/assets/icon-migration-dark.svg"/>
+  <img src="https://raw.githubusercontent.com/LOAD-13/LOAD-13/main/assets/icon-migration-light.svg" width="56" height="56" alt=""/>
+</picture>
 
 ### Migraciones
 
@@ -174,7 +183,10 @@ Ejecución de **migraciones de datos y sistemas** entre plataformas, preservando
 <tr>
 <td width="33%" valign="top" align="center">
 
-<img src="https://raw.githubusercontent.com/LOAD-13/LOAD-13/main/assets/icon-network.svg" width="46" height="46" alt=""/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/LOAD-13/LOAD-13/main/assets/icon-network-dark.svg"/>
+  <img src="https://raw.githubusercontent.com/LOAD-13/LOAD-13/main/assets/icon-network-light.svg" width="50" height="50" alt=""/>
+</picture>
 
 **REDES E INFRAESTRUCTURA**
 
@@ -185,7 +197,10 @@ Ejecución de **migraciones de datos y sistemas** entre plataformas, preservando
 </td>
 <td width="33%" valign="top" align="center">
 
-<img src="https://raw.githubusercontent.com/LOAD-13/LOAD-13/main/assets/icon-cloud.svg" width="46" height="46" alt=""/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/LOAD-13/LOAD-13/main/assets/icon-cloud-dark.svg"/>
+  <img src="https://raw.githubusercontent.com/LOAD-13/LOAD-13/main/assets/icon-cloud-light.svg" width="50" height="50" alt=""/>
+</picture>
 
 **CLOUD COMPUTING**
 
@@ -196,7 +211,10 @@ Ejecución de **migraciones de datos y sistemas** entre plataformas, preservando
 </td>
 <td width="33%" valign="top" align="center">
 
-<img src="https://raw.githubusercontent.com/LOAD-13/LOAD-13/main/assets/icon-security.svg" width="46" height="46" alt=""/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/LOAD-13/LOAD-13/main/assets/icon-security-dark.svg"/>
+  <img src="https://raw.githubusercontent.com/LOAD-13/LOAD-13/main/assets/icon-security-light.svg" width="50" height="50" alt=""/>
+</picture>
 
 **CIBERSEGURIDAD**
 
@@ -218,14 +236,14 @@ Ejecución de **migraciones de datos y sistemas** entre plataformas, preservando
 
 <div align="center">
 
-<img height="180" src="https://streak-stats.demolab.com?user=LOAD-13&hide_border=true&background=201D30&stroke=5549B7&ring=995CD0&fire=EC7744&currStreakLabel=8EDF5F&sideLabels=D6CFE8&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=9C93B8" alt="Racha de contribuciones"/>
+<img width="100%" src="https://streak-stats.demolab.com?user=LOAD-13&hide_border=true&background=201D30&stroke=5549B7&ring=995CD0&fire=EC7744&currStreakLabel=8EDF5F&sideLabels=D6CFE8&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=9C93B8" alt="Racha de contribuciones"/>
 
-<img width="86%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=LOAD-13&theme=aura_dark" alt="Resumen del perfil"/>
+<img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=LOAD-13&theme=aura_dark" alt="Resumen del perfil"/>
 
-<img height="200" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=LOAD-13&theme=aura_dark" alt="Repositorios por lenguaje"/>
-<img height="200" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=LOAD-13&theme=aura_dark" alt="Lenguajes con más commits"/>
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=LOAD-13&theme=aura_dark" alt="Repositorios por lenguaje"/>
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=LOAD-13&theme=aura_dark" alt="Lenguajes con más commits"/>
 
-<img width="100%" src="https://raw.githubusercontent.com/LOAD-13/LOAD-13/output/snake.svg" alt="Serpiente de contribuciones"/>
+<img width="100%" src="https://raw.githubusercontent.com/LOAD-13/LOAD-13/output/snake.svg?v=2" alt="Serpiente de contribuciones"/>
 
 </div>
 
