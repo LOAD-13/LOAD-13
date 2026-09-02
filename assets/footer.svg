@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 130" width="1000" height="130" role="img" aria-label="">
+  <defs>
+    <linearGradient id="w1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#201D30"/>
+      <stop offset="45%" stop-color="#5549B7"/>
+      <stop offset="100%" stop-color="#995CD0"/>
+    </linearGradient>
+    <linearGradient id="w2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#5549B7"/>
+      <stop offset="60%" stop-color="#995CD0"/>
+      <stop offset="100%" stop-color="#C9A8E8"/>
+    </linearGradient>
+    <clipPath id="fclip"><rect width="1000" height="130" rx="12"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#fclip)">
+    <rect width="1000" height="130" fill="#201D30"/>
+
+    <!-- ola trasera -->
+    <path fill="url(#w1)" opacity="0.55"
+          d="M0,74 C150,34 320,110 500,74 C680,38 840,96 1000,62 L1000,130 L0,130 Z">
+      <animate attributeName="d" dur="9s" repeatCount="indefinite"
+        values="M0,74 C150,34 320,110 500,74 C680,38 840,96 1000,62 L1000,130 L0,130 Z;
+                M0,62 C160,100 330,36 500,70 C670,104 850,44 1000,78 L1000,130 L0,130 Z;
+                M0,74 C150,34 320,110 500,74 C680,38 840,96 1000,62 L1000,130 L0,130 Z"/>
+    </path>
+
+    <!-- ola frontal -->
+    <path fill="url(#w2)"
+          d="M0,92 C170,60 330,120 520,90 C700,62 860,110 1000,84 L1000,130 L0,130 Z">
+      <animate attributeName="d" dur="7s" repeatCount="indefinite"
+        values="M0,92 C170,60 330,120 520,90 C700,62 860,110 1000,84 L1000,130 L0,130 Z;
+                M0,84 C160,116 340,58 520,96 C690,128 870,66 1000,96 L1000,130 L0,130 Z;
+                M0,92 C170,60 330,120 520,90 C700,62 860,110 1000,84 L1000,130 L0,130 Z"/>
+    </path>
+
+    <!-- filo verde -->
+    <path fill="none" stroke="#8EDF5F" stroke-width="2" opacity="0.75"
+          d="M0,92 C170,60 330,120 520,90 C700,62 860,110 1000,84">
+      <animate attributeName="d" dur="7s" repeatCount="indefinite"
+        values="M0,92 C170,60 330,120 520,90 C700,62 860,110 1000,84;
+                M0,84 C160,116 340,58 520,96 C690,128 870,66 1000,96;
+                M0,92 C170,60 330,120 520,90 C700,62 860,110 1000,84"/>
+    </path>
+
+    <!-- chispa naranja -->
+    <circle r="4" fill="#EC7744">
+      <animateMotion dur="7s" repeatCount="indefinite" rotate="auto"
+        path="M0,92 C170,60 330,120 520,90 C700,62 860,110 1000,84"/>
+    </circle>
+  </g>
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Ciberseguridad">
+  <path d="M32 6 54 15v18c0 13.5-9.2 21.4-22 25C19.2 54.4 10 46.5 10 33V15Z"
+        fill="none" stroke="#EC7744" stroke-width="2.8" stroke-linejoin="round"/>
+  <path d="M32 12.5 48.5 19v14c0 10.4-6.9 16.7-16.5 19.6" fill="none"
+        stroke="#995CD0" stroke-width="2.2" stroke-linejoin="round" opacity="0.85"/>
+  <path d="M22 32.5l7.5 7.5L43 26" fill="none" stroke="#8EDF5F" stroke-width="3.4"
+        stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 240" width="1000" height="240" role="img" aria-label="Joaquín Loa Denegri — Software Engineer">
+  <defs>
+    <linearGradient id="band" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#5549B7"/>
+      <stop offset="60%" stop-color="#995CD0"/>
+      <stop offset="100%" stop-color="#C9A8E8"/>
+    </linearGradient>
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#8EDF5F" stop-opacity="0"/>
+      <stop offset="40%" stop-color="#8EDF5F" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#8EDF5F" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#C9A8E8" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#C9A8E8" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#C9A8E8" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="#995CD0" stroke-opacity="0.12" stroke-width="1"/>
+    </pattern>
+    <clipPath id="frame"><rect width="1000" height="240" rx="12"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1000" height="240" fill="#201D30"/>
+    <rect width="1000" height="240" fill="url(#grid)"/>
+
+    <!-- bloque angular derecho -->
+    <polygon points="640,0 1000,0 1000,240 800,240" fill="url(#band)" opacity="0.9"/>
+    <polygon points="596,240 736,0 792,0 652,240" fill="#995CD0" opacity="0.20"/>
+    <polygon points="700,240 840,0 862,0 722,240" fill="#8EDF5F" opacity="0.14"/>
+
+    <!-- lanza naranja -->
+    <polygon points="906,-30 936,-30 706,270 676,270" fill="#EC7744" opacity="0.55"/>
+    <polygon points="946,-30 956,-30 726,270 716,270" fill="#EC7744" opacity="0.28"/>
+
+    <!-- esquina inferior izquierda -->
+    <polygon points="0,240 130,240 44,126" fill="#5549B7" opacity="0.35"/>
+
+    <!-- barrido animado -->
+    <rect x="-320" y="0" width="320" height="240" fill="url(#sweep)">
+      <animate attributeName="x" from="-320" to="1000" dur="4.5s" begin="0.6s" repeatCount="1" fill="freeze"/>
+    </rect>
+
+    <!-- texto -->
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.9s" begin="0.15s" fill="freeze"/>
+      <text x="62" y="104" font-family="'Segoe UI Semibold','Segoe UI',Helvetica,Arial,sans-serif"
+            font-size="52" font-weight="700" letter-spacing="1.5" fill="#F4F0FA">JOAQUÍN LOA DENEGRI</text>
+    </g>
+
+    <!-- subrayado verde -->
+    <rect x="62" y="124" width="0" height="4" rx="2" fill="url(#fade)">
+      <animate attributeName="width" from="0" to="430" dur="0.8s" begin="0.7s" fill="freeze"/>
+    </rect>
+
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.9s" begin="0.95s" fill="freeze"/>
+      <text x="64" y="164" font-family="Consolas,'JetBrains Mono','Courier New',monospace"
+            font-size="19" letter-spacing="2.6" fill="#8EDF5F">SOFTWARE ENGINEER</text>
+      <text x="64" y="194" font-family="Consolas,'JetBrains Mono','Courier New',monospace"
+            font-size="15" letter-spacing="1.8" fill="#B9AEDA">BACKEND · APIs · ARQUITECTURA DE SOFTWARE</text>
+    </g>
+
+    <!-- marcas tipo HUD -->
+    <g fill="#EC7744" opacity="0">
+      <animate attributeName="opacity" from="0" to="0.95" dur="0.6s" begin="1.3s" fill="freeze"/>
+      <rect x="62" y="46" width="26" height="3"/>
+      <rect x="94" y="46" width="9" height="3"/>
+      <rect x="109" y="46" width="4" height="3"/>
+    </g>
+
+    <rect x="0.5" y="0.5" width="999" height="239" rx="12" fill="none" stroke="#995CD0" stroke-opacity="0.45"/>
+  </g>
+</svg>
